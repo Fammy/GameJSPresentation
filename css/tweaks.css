@@ -1,0 +1,28 @@
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+    margin-bottom: .75em;
+}
+
+table.small td {
+  font-size: .8em;
+}
+
+table.borders tr {
+    background-color: #222;
+}
+
+table.borders td {
+    padding: 10px;
+}
+
+.reveal section img {
+    border: 0;
+    background: inherit;
+}
+
+.reveal a:not(.image) {
+    text-shadow: 1px 1px #222222;
+}
+
+.large {
+    font-size: 1.5em !important;
+}
