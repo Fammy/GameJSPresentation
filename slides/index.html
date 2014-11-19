@@ -168,8 +168,8 @@
 
                 multiplex: {
                         secret: null,
-                        //secret: '14163658606019095514',
-                        id: '5fa70f2836907183', // id, obtained from socket.io server
+                        //secret: '1416370221245619178',
+                        id: '6775ab878a84fc73', // id, obtained from socket.io server
                         url: 'revealjs.jit.su:80' // Location of socket.io server
                     },
 
@@ -181,7 +181,7 @@
                     { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
                     { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-                    { src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js', async: true },
+                    { src: '//cdn.socket.io/socket.io-1.2.0.js', async: true },
                     //{ src: 'plugin/multiplex/master.js', async: true }                ]
                     { src: 'plugin/multiplex/client.js', async: true }                ]
             });
