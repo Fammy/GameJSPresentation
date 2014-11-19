@@ -81,8 +81,8 @@
                                 <li>Control rate of gameplay</li>
                             </ul>
                         </li>
-                        <li class="fragment">Collision detection</li>
                         <li class="fragment">Sprites</li>
+                        <li class="fragment">Collision detection</li>
                         <li class="fragment">And so much more...</li>
                     </ul>
                 </section>
@@ -113,13 +113,13 @@
                     <ul>
                         <li>Crafty has a website: <a href="http://craftyjs.com/" target="_blank">craftyjs.com</a></li>
                         <li>Install: direct download, Bower, npm</li>
-                        <li>Example: <a href="http://localhost:3000/pong.html" target="_blank">Pong</a></li>
-                        <li>Example: <a href="http://famularo.org/" target="_blank">Really silly game I made with Crafty</a></li>
+                        <li>Example: <a href="http://fammy.github.io/game/src/public/pong.html" target="_blank">Pong</a></li>
+                        <li>Example: <a href="http://famularo.org/Games/CraftyPlatformer" target="_blank">Really silly game I made with Crafty</a></li>
 
                 </section>
 
                 <section>
-                    <h2>Show me the script!</h2>
+                    <h2>Show me the JavaScript!</h2>
                     <img src="images/showme.png">
                 </section>
 
@@ -127,7 +127,7 @@
                     <h2>"Finished" product</h2>
                     <p>
                         Jason: in case you can't code in front of a room full of people:
-                        <a href="http://localhost:3000/finished.html" target="_blank">CLICK ME</a>
+                        <a href="http://fammy.github.io/game/src/public/finished.html" target="_blank">CLICK ME</a>
                     </p>
                 </section>
 
@@ -144,7 +144,7 @@
                         <a href="http://twitter.com/splodn">@splodn</a>
                     </p>
                     <p>
-                        Source: <a href="http://github.com/fammy/">TBD</a>
+                        Source: <a href="https://github.com/Fammy/GameJSPresentation">github.com/Fammy/GameJSPresentation</a>
                     </p>
                 </section>
             </div>
@@ -182,8 +182,8 @@
                     { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js', async: true },
-                    { src: 'plugin/multiplex/master.js', async: true }                ]
-                    //{ src: 'plugin/multiplex/client.js', async: true }                ]
+                    //{ src: 'plugin/multiplex/master.js', async: true }                ]
+                    { src: 'plugin/multiplex/client.js', async: true }                ]
             });
 
         </script>

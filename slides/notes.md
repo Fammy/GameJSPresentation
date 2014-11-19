@@ -14,8 +14,8 @@
     * Render game (graphics, sounds)
     * Control rate of gameplay
         * slow down/skip frames
-* Collision detection
 * Sprite sheets
+* Collision detection
 * Etc
 
 ## Game programming in JS
